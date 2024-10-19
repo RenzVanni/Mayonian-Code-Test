@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "/images/sr.webp.png",
+    "favorite": false,
+    "name": "Sugar Rush"
+  },
+  {
+    "id": 2,
+    "image": "/images/sc.webp.png",
+    "favorite": false,
+    "name": "Shaolin Crew"
+  },
+  {
+    "id": 3,
+    "image": "/images/bbw.webp.png",
+    "favorite": false,
+    "name": "Big Bad Wolf"
+  },
+  {
+    "id": 4,
+    "image": "/images/boe.webp.png",
+    "favorite": false,
+    "name": "Book of Egypt"
+  },
+  {
+    "id": 5,
+    "image": "/images/pp.webp.png",
+    "favorite": false,
+    "name": "Pirates Power"
+  },
+  {
+    "id": 6,
+    "image": "/images/xfb.webp.png",
+    "favorite": false,
+    "name": "Crocodile Blitz"
+  },
+  {
+    "id": 7,
+    "image": "/images/aw2.webp.png",
+    "favorite": false,
+    "name": "Anaconda Wild 2"
+  },
+  {
+    "id": 8,
+    "image": "/images/mj.webp.png",
+    "favorite": false,
+    "name": "Maya Jackpot"
+  },
+  {
+    "id": 9,
+    "image": "/images/bl.webp.png",
+    "favorite": false,
+    "name": "Beach Life"
+  },
+  {
+    "id": 10,
+    "image": "/images/ij.webp.png",
+    "favorite": false,
+    "name": "Inca Jackpot"
+  },
+  {
+    "id": 12,
+    "image": "/images/et.webp.png",
+    "favorite": false,
+    "name": "Empire Treasures"
+  },
+  {
+    "id": 13,
+    "image": "/images/abl.webp.png",
+    "favorite": false,
+    "name": "Azteca Bonus Line"
+  }
+]
