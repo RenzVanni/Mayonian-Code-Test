@@ -77,7 +77,7 @@ const Search = () => {
                 alt="image"
               />
             </div>
-            <div className="p-3 grid grid-cols-2 gap-3 overflow-y-scroll">
+            <div className="p-3 grid grid-cols-2 gap-3 overflow-y-scroll h-full">
               {[...Array(24)].map((_, index) => (
                 <div
                   key={index}
