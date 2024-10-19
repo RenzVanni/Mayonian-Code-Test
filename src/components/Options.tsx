@@ -13,7 +13,7 @@ const Options = () => {
         <img
           src="/icons/test-search.png"
           alt="Search"
-          className="w-[25px] h-[25px] object-cover"
+          className="w-[25px] h-[25px] object-cover cursor-pointer"
         />
         <p className="text-sm uppercase">Search</p>
       </div>
@@ -22,7 +22,7 @@ const Options = () => {
         <div
           onClick={() => setOption({ [item.name]: true })}
           key={index}
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center cursor-pointer"
         >
           <div className="w-[25px] h-[25px]">
             <img

@@ -3,6 +3,11 @@ export type OptionProp = {
   start?: boolean;
   new?: boolean;
   slot?: boolean;
+  live?: boolean;
+  jackpot?: boolean;
+  table?: boolean;
+  bingo?: boolean;
+  other?: boolean;
 };
 
 export type SearchProp = {

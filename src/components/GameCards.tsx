@@ -38,6 +38,7 @@ const GameCards = () => {
           />
         </div>
       ))}
+      {filteredGame.length == 0 && <p>No Games Found</p>}
     </div>
   );
 };

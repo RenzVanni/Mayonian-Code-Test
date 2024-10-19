@@ -16,10 +16,7 @@ export const Context = createContext(data);
 export const CustomContext = ({ children }: ChildrenProp) => {
   const [game, setGame] = useState<GameProp[]>([]);
   const [option, setOption] = useState<OptionProp>({
-    search: false,
     start: true,
-    new: false,
-    slot: false,
   });
   const [search, setSearch] = useState<SearchProp>({ search: "" });
 
