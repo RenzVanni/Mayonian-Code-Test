@@ -1,15 +1,12 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import GameCards from "./GameCards";
 import { Context } from "../context/globalContext";
 import { otherGame } from "../data/moreData";
 
 const Search = () => {
-  const { search, setSearch } = useContext(Context);
+  const { setSearch } = useContext(Context);
   const [isGameProvider, setIsGameProvider] = useState(false);
 
-  useEffect(() => {
-    console.log(search);
-  }, [search]);
   return (
     <div className="">
       <form action="" className="flex space-x-3 h-[35px] mb-3">
@@ -81,7 +78,7 @@ const Search = () => {
               />
             </div>
             <div className="p-3 grid grid-cols-2 gap-3 overflow-y-scroll">
-              {[...Array(24)].map((item, index) => (
+              {[...Array(24)].map((_, index) => (
                 <div
                   key={index}
                   className="bg-provider p-3 flex items-center justify-center rounded-md"
