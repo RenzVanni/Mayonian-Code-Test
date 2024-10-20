@@ -1,8 +1,8 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Context } from "../context/globalContext";
 
 const GameCards = () => {
-  const { game, setGame, search } = useContext(Context);
+  const { game, setGame, search, setSearch } = useContext(Context);
 
   const handleClick = (id: number) => {
     setGame((prev) =>
@@ -12,6 +12,9 @@ const GameCards = () => {
     );
   };
 
+  useEffect(() => {
+    setSearch({ search: "" });
+  }, []);
   const filteredGame = game.filter((item) =>
     item.name.toLocaleLowerCase().includes(search.search.toLowerCase())
   );

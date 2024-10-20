@@ -1,33 +1,40 @@
+import {
+  cashierSvg,
+  casinoLiveSvg,
+  favoritesSvg,
+  inviteSvg,
+  sportsSvg,
+} from "../assets/navigationSvg";
 import { CASHIER, FAVORITES, INDEX, INVITE, SPORTS } from "../Constants/slugs";
 
 export const navigationData = [
   {
     id: 1,
-    icon: "/icons/test-sports.png",
+    icon: sportsSvg,
     name: "sports",
     slug: SPORTS,
   },
   {
     id: 2,
-    icon: "/icons/test-favorites.png",
+    icon: favoritesSvg,
     name: "favorites",
     slug: FAVORITES,
   },
   {
     id: 3,
-    icon: "/icons/test-invite.png",
+    icon: inviteSvg,
     name: "invite",
     slug: INVITE,
   },
   {
     id: 4,
-    icon: "/icons/test-casino-live.png",
+    icon: casinoLiveSvg,
     name: "casino live",
     slug: INDEX,
   },
   {
     id: 5,
-    icon: "/icons/test-cashier.png",
+    icon: cashierSvg,
     name: "cashier",
     slug: CASHIER,
   },

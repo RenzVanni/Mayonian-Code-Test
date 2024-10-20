@@ -24,8 +24,6 @@ const CasinoLive = () => {
         <p className="text-sm">¡FELICIDADES artxxxxipa! GANADOR DESTACADO </p>
       </div>
 
-
-
       <Options />
       {option.search && <Search />}
       {option.start && <GameCards />}
